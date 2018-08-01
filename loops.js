@@ -23,5 +23,5 @@ function doWhileLoop(array){
     }
     
     
-  } while (array.length != undefined || maybeTrue === true);
+  } while (array.length > 0 || maybeTrue());
 }
